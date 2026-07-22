@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(123, 0, 238);
+}
+h1,p{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    border-radius: 25px;
+    background-color: rgb(109, 0, 211);
+    color: aliceblue;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    color: aliceblue;
+}
