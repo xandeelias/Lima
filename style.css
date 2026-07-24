@@ -1,22 +1,60 @@
 *{
     background-color: rgb(123, 0, 238);
 }
-h1,p{
+h1, h2{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
     color: aliceblue;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 button{
+    
     border-radius: 25px;
     background-color: rgb(109, 0, 211);
     color: aliceblue;
+    border: 1px solid #7a06b9;
 }
 .botao{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 footer{
     color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ol{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    color: #9cd1ff;
+}
+table{
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

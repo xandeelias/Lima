@@ -1,0 +1,18 @@
+body{
+    background-color: f0f0f0;
+    padding: 20px;
+}
+h1{
+    font-size: 24px;
+    color: #8124d8;
+}
+button{
+    padding: 4px 4px;
+    background-color: #8124d8;
+    color: aliceblue;
+    border: 1px solid #7220be;
+    border-radius: 16px;    
+}
+#nome{
+    background-color: #fafafa;
+}
