@@ -1,0 +1,64 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+    color: #921dff;
+    margin: 0;
+    padding: 20px;
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+    color: #7600e4;
+}
+p{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+.lorem{
+    color: #b800e1;
+}
+p.lorem{
+    text-align: justify;
+}
+p.lorem#uParagrafo{
+    color: #77108e;
+    font-size: 18px;
+}
+.conteudo{
+    width: 60vw;
+    height: 100vh;
+}
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#button{
+    color: aliceblue;
+    background-color: #690acf;
+    border: none;
+    border-radius: 25px;
+    font-size: 17px;
+    transition: all 0.2s ease-in-out;
+}
+#button:hover{
+    transform: scale(1.1);
+}
+.img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+#imagem{
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    width: 400px;
+    height: 320px;
+}
+#imagem:hover{
+    transform: scale(1.05); 
+    opacity: 0.8;
+}

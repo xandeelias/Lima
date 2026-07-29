@@ -1,0 +1,32 @@
+*{
+    margin: 0; /* remove as margens padrão de todos os elementos */
+    padding: 0; /* remove o paddings padrão de todos os elementos */
+    box-sizing: border-box; /* garante  que o padding/borda serão incluídos no 
+    cálculo do tamanho dos elementos */
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap; /* permite a quebra de linha se não couber na largura */
+    padding: 20px;
+}
+.card{
+    background-color: #e7eef5;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+}
+.card:hover{
+    transform:  translateY(-10px);
+    box-shadow: 0px 6px 20px rgba(0,0,0,0.2);
+}
