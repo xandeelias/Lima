@@ -1,0 +1,24 @@
+body{
+    height: 100vh;
+    overflow: hidden;
+    background-color: #282828;
+}
+.star{
+    position: fixed;
+    pointer-events: none;
+    font-size: 20px;
+    content: "&#10022;";
+    color: #9d00ff;
+    text-shadow: 0 0 10px #9d00ff;
+    animation: caiEDesvanece 0.8s ease-out forwards;
+}
+@keyframes caiEDesvanece{
+    0%{
+        opacity: 1;
+        transform: translate(0,0) scale(1) rotate(0);
+    }
+    100%{
+        opacity: 0;
+        transform: translate(var(--xAleatorio), 40px) scale(0.3) rotate(45deg);
+    }
+}

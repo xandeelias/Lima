@@ -1,6 +1,6 @@
 :root{
     --primary-color: #9f2aff;
-    --secondary-color: #9027e6;
+    --secondary-color: #8323d1;
     --background-color: aliceblue;
     --text-color: #333;
     --light-text-color: #666;
@@ -71,6 +71,11 @@ body{
     margin-bottom: 1rem;
     color: var(--primary-color);
 }
+.sidebar img{
+    width: 100%;
+    margin: 10px 0;
+    border-radius: var(--border-radius);
+}
 .sidebar-link{
     list-style: none;
 }
@@ -134,5 +139,31 @@ body{
 @media(max-width: 768px){
     .main-content{
         flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+    }
+    .cards{
+        width: 100%;
+    }
+    .nav-links{
+        display: none;
+        flex-direction: column;
+        background-color: var(--primary-color);
+        position: absolute;
+        top: 100%;
+        right: 0%;
+        width: 100%;
+    }
+    .nav-links.active{
+        display: flex;
+    }
+    .menu-toogle{
+        display: block;
+
+    }
+    .card img{
+        width: 100%;
+        border-radius: var(--border-radius);
     }
 }
